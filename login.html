@@ -68,10 +68,20 @@ auto - margem definida automaticamente
 Fonte: https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp
 -->
 </head>
-<body>
+<body class="text-center">
    <form class="form-signin">
       <img class="mb-4" src="imageslogofiap.png" width="300px"> <!-- mb = margin bottom = 1.5rem (48px) -->
-      <h1>Login</h1>
+      <h1 class="mb-3">Login</h1>
+    <input type="email" name="email" class="mb-2 form-control" placeholder="Digite seu email" autofocus>
+    <input type="password" name="password" class="mb-2 form-control" required placeholder="Sua senha">
+        <!-- BOTÕES -->
+        <input type="submit" name="enviar" value="Enviar" class="mb-2 btn btn-lg btn-secondary btn-block" id="">
+        <a href="#" class="btn btn-lg btn-primary active">Enviar</a>
+<!-- /BOTÕES -->
+    <div class="checkbox mb-3">
+      <input type="checkbox" name="Lembrar">Lembrar de usuário
+    </div>
+   
    </form>
 
 
